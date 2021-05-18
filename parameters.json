@@ -1,0 +1,27 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"eventhub_namespace": {
+			"value": "EVENT_HUB_NAMESPACE"
+		},
+		"eventhub_name": {
+			"value": "EVENT_HUB_NAME"
+		},
+		"streamanalytics_name": {
+			"value": "STREAM_ANALYTICS_NAME"
+		},
+		"storageAccount_name": {
+			"value": "STORAGE_ACCOUNT_NAME"
+		},
+		"sa_input_name": {
+			"value": "STREAM_ANALYTICS_INPUT_NAME"
+		},
+		"sa_coldoutput_name": {
+			"value": "STREAM_ANALYTICS_COLD_OUTPUT_NAME"
+		},
+		"sa_hotoutput_name": {
+			"value": "STREAM_ANALYTICS_HOT_OUTPUT_NAME"
+		}
+	}
+}

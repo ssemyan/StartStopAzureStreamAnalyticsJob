@@ -1,1 +1,2 @@
 # StartStopAzureStreamAnalyticsJob
+This script can start and stop Azure Stream Analytics jobs. Normally a ASA job runs 24/7 but it is sometimes useful to be able to start the job, let it run for a while, then stop it again. This script creates and deletes the job rather than just pausing. 
